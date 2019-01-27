@@ -1,4 +1,0 @@
-/home/camilo/Documents/Cursos/Docs/C#/Proyects/app/app/app.entities/obj/Debug/netstandard2.0/app.entities.csprojAssemblyReference.cache
-/home/camilo/Documents/Cursos/Docs/C#/Proyects/app/app/app.entities/obj/Debug/netstandard2.0/app.entities.csproj.CoreCompileInputs.cache
-/home/camilo/Documents/Cursos/Docs/C#/Proyects/app/app/app.entities/obj/Debug/netstandard2.0/app.entities.AssemblyInfoInputs.cache
-/home/camilo/Documents/Cursos/Docs/C#/Proyects/app/app/app.entities/obj/Debug/netstandard2.0/app.entities.AssemblyInfo.cs
