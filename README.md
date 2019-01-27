@@ -22,4 +22,5 @@ git clone https://github.com/ask098/certifier.git
 git add .
 git commit -m ""
 ```
-
+#### Our procces and guide
+[here](https://docs.google.com/document/d/1XXaU3OnZXUbz9IHpn6URh_sIe1dLC2zySlcVJ_MM4Bw/edit?usp=sharing)
