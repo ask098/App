@@ -1,0 +1,9 @@
+C:\Proyectos\Wayuu\Wayuu.Helpers\bin\Debug\netstandard2.0\Wayuu.Helpers.deps.json
+C:\Proyectos\Wayuu\Wayuu.Helpers\bin\Debug\netstandard2.0\Wayuu.Helpers.dll
+C:\Proyectos\Wayuu\Wayuu.Helpers\obj\Debug\netstandard2.0\Wayuu.Helpers.csproj.CoreCompileInputs.cache
+C:\Proyectos\Wayuu\Wayuu.Helpers\obj\Debug\netstandard2.0\Wayuu.Helpers.AssemblyInfoInputs.cache
+C:\Proyectos\Wayuu\Wayuu.Helpers\obj\Debug\netstandard2.0\Wayuu.Helpers.AssemblyInfo.cs
+C:\Proyectos\Wayuu\Wayuu.Helpers\bin\Debug\netstandard2.0\Wayuu.Helpers.pdb
+C:\Proyectos\Wayuu\Wayuu.Helpers\obj\Debug\netstandard2.0\Wayuu.Helpers.dll
+C:\Proyectos\Wayuu\Wayuu.Helpers\obj\Debug\netstandard2.0\Wayuu.Helpers.pdb
+C:\Proyectos\Wayuu\Wayuu.Helpers\obj\Debug\netstandard2.0\Wayuu.Helpers.csprojAssemblyReference.cache

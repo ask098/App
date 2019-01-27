@@ -1,0 +1,16 @@
+C:\Proyectos\Wayuu\Wayuu.DAL\bin\Debug\netstandard2.0\Wayuu.DAL.deps.json
+C:\Proyectos\Wayuu\Wayuu.DAL\bin\Debug\netstandard2.0\Wayuu.DAL.dll
+C:\Proyectos\Wayuu\Wayuu.DAL\bin\Debug\netstandard2.0\Wayuu.Entities.dll
+C:\Proyectos\Wayuu\Wayuu.DAL\bin\Debug\netstandard2.0\Wayuu.Helpers.dll
+C:\Proyectos\Wayuu\Wayuu.DAL\bin\Debug\netstandard2.0\Wayuu.Entities.pdb
+C:\Proyectos\Wayuu\Wayuu.DAL\bin\Debug\netstandard2.0\Wayuu.Helpers.pdb
+C:\Proyectos\Wayuu\Wayuu.DAL\obj\Debug\netstandard2.0\Wayuu.DAL.csprojAssemblyReference.cache
+C:\Proyectos\Wayuu\Wayuu.DAL\obj\Debug\netstandard2.0\Wayuu.DAL.csproj.CoreCompileInputs.cache
+C:\Proyectos\Wayuu\Wayuu.DAL\obj\Debug\netstandard2.0\Wayuu.DAL.AssemblyInfoInputs.cache
+C:\Proyectos\Wayuu\Wayuu.DAL\obj\Debug\netstandard2.0\Wayuu.DAL.AssemblyInfo.cs
+C:\Proyectos\Wayuu\Wayuu.DAL\obj\Debug\netstandard2.0\Wayuu.DAL.csproj.CopyComplete
+C:\Proyectos\Wayuu\Wayuu.DAL\bin\Debug\netstandard2.0\Wayuu.DAL.pdb
+C:\Proyectos\Wayuu\Wayuu.DAL\bin\Debug\netstandard2.0\Wayuu.Services.dll
+C:\Proyectos\Wayuu\Wayuu.DAL\bin\Debug\netstandard2.0\Wayuu.Services.pdb
+C:\Proyectos\Wayuu\Wayuu.DAL\obj\Debug\netstandard2.0\Wayuu.DAL.dll
+C:\Proyectos\Wayuu\Wayuu.DAL\obj\Debug\netstandard2.0\Wayuu.DAL.pdb

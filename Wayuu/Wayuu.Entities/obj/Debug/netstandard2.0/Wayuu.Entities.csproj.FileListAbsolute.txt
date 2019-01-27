@@ -1,0 +1,9 @@
+C:\Proyectos\Wayuu\Wayuu.Entities\bin\Debug\netstandard2.0\Wayuu.Entities.deps.json
+C:\Proyectos\Wayuu\Wayuu.Entities\bin\Debug\netstandard2.0\Wayuu.Entities.dll
+C:\Proyectos\Wayuu\Wayuu.Entities\bin\Debug\netstandard2.0\Wayuu.Entities.pdb
+C:\Proyectos\Wayuu\Wayuu.Entities\obj\Debug\netstandard2.0\Wayuu.Entities.csproj.CoreCompileInputs.cache
+C:\Proyectos\Wayuu\Wayuu.Entities\obj\Debug\netstandard2.0\Wayuu.Entities.AssemblyInfoInputs.cache
+C:\Proyectos\Wayuu\Wayuu.Entities\obj\Debug\netstandard2.0\Wayuu.Entities.AssemblyInfo.cs
+C:\Proyectos\Wayuu\Wayuu.Entities\obj\Debug\netstandard2.0\Wayuu.Entities.dll
+C:\Proyectos\Wayuu\Wayuu.Entities\obj\Debug\netstandard2.0\Wayuu.Entities.pdb
+C:\Proyectos\Wayuu\Wayuu.Entities\obj\Debug\netstandard2.0\Wayuu.Entities.csprojAssemblyReference.cache
