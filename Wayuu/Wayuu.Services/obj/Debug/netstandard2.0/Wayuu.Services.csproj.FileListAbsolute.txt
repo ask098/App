@@ -10,3 +10,15 @@ C:\Proyectos\Wayuu\Wayuu.Services\obj\Debug\netstandard2.0\Wayuu.Services.Assemb
 C:\Proyectos\Wayuu\Wayuu.Services\obj\Debug\netstandard2.0\Wayuu.Services.csproj.CopyComplete
 C:\Proyectos\Wayuu\Wayuu.Services\obj\Debug\netstandard2.0\Wayuu.Services.dll
 C:\Proyectos\Wayuu\Wayuu.Services\obj\Debug\netstandard2.0\Wayuu.Services.pdb
+C:\Repositorio\App\Wayuu\Wayuu.Services\bin\Debug\netstandard2.0\Wayuu.Services.deps.json
+C:\Repositorio\App\Wayuu\Wayuu.Services\bin\Debug\netstandard2.0\Wayuu.Services.dll
+C:\Repositorio\App\Wayuu\Wayuu.Services\bin\Debug\netstandard2.0\Wayuu.Services.pdb
+C:\Repositorio\App\Wayuu\Wayuu.Services\bin\Debug\netstandard2.0\Wayuu.Entities.dll
+C:\Repositorio\App\Wayuu\Wayuu.Services\bin\Debug\netstandard2.0\Wayuu.Entities.pdb
+C:\Repositorio\App\Wayuu\Wayuu.Services\obj\Debug\netstandard2.0\Wayuu.Services.csprojAssemblyReference.cache
+C:\Repositorio\App\Wayuu\Wayuu.Services\obj\Debug\netstandard2.0\Wayuu.Services.csproj.CoreCompileInputs.cache
+C:\Repositorio\App\Wayuu\Wayuu.Services\obj\Debug\netstandard2.0\Wayuu.Services.AssemblyInfoInputs.cache
+C:\Repositorio\App\Wayuu\Wayuu.Services\obj\Debug\netstandard2.0\Wayuu.Services.AssemblyInfo.cs
+C:\Repositorio\App\Wayuu\Wayuu.Services\obj\Debug\netstandard2.0\Wayuu.Services.csproj.CopyComplete
+C:\Repositorio\App\Wayuu\Wayuu.Services\obj\Debug\netstandard2.0\Wayuu.Services.dll
+C:\Repositorio\App\Wayuu\Wayuu.Services\obj\Debug\netstandard2.0\Wayuu.Services.pdb

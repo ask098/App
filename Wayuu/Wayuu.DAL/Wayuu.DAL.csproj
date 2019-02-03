@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Wayuu.Entities\Wayuu.Entities.csproj" />
     <ProjectReference Include="..\Wayuu.Helpers\Wayuu.Helpers.csproj" />
+    <ProjectReference Include="..\Wayuu.Migrations\Wayuu.Migrations.csproj" />
     <ProjectReference Include="..\Wayuu.Services\Wayuu.Services.csproj" />
   </ItemGroup>
 

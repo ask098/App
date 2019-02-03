@@ -779,6 +779,16 @@
           "bin/placeholder/Wayuu.Helpers.dll": {}
         }
       },
+      "Wayuu.Migrations/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Wayuu.Migrations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Wayuu.Migrations.dll": {}
+        }
+      },
       "Wayuu.Services/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1168,12 +1178,11 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -3110,6 +3119,11 @@
       "path": "../Wayuu.Helpers/Wayuu.Helpers.csproj",
       "msbuildProject": "../Wayuu.Helpers/Wayuu.Helpers.csproj"
     },
+    "Wayuu.Migrations/1.0.0": {
+      "type": "project",
+      "path": "../Wayuu.Migrations/Wayuu.Migrations.csproj",
+      "msbuildProject": "../Wayuu.Migrations/Wayuu.Migrations.csproj"
+    },
     "Wayuu.Services/1.0.0": {
       "type": "project",
       "path": "../Wayuu.Services/Wayuu.Services.csproj",
@@ -3123,6 +3137,7 @@
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 2.2.0",
       "Wayuu.Entities >= 1.0.0",
       "Wayuu.Helpers >= 1.0.0",
+      "Wayuu.Migrations >= 1.0.0",
       "Wayuu.Services >= 1.0.0"
     ]
   },
@@ -3133,11 +3148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\Wayuu\\Wayuu.DAL\\Wayuu.DAL.csproj",
+      "projectUniqueName": "C:\\Repositorio\\App\\Wayuu\\Wayuu.DAL\\Wayuu.DAL.csproj",
       "projectName": "Wayuu.DAL",
-      "projectPath": "C:\\Proyectos\\Wayuu\\Wayuu.DAL\\Wayuu.DAL.csproj",
+      "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.DAL\\Wayuu.DAL.csproj",
       "packagesPath": "C:\\Users\\Hugo\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos\\Wayuu\\Wayuu.DAL\\obj\\",
+      "outputPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3156,14 +3171,17 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Proyectos\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj": {
-              "projectPath": "C:\\Proyectos\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj"
+            "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj": {
+              "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj"
             },
-            "C:\\Proyectos\\Wayuu\\Wayuu.Helpers\\Wayuu.Helpers.csproj": {
-              "projectPath": "C:\\Proyectos\\Wayuu\\Wayuu.Helpers\\Wayuu.Helpers.csproj"
+            "C:\\Repositorio\\App\\Wayuu\\Wayuu.Helpers\\Wayuu.Helpers.csproj": {
+              "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Helpers\\Wayuu.Helpers.csproj"
             },
-            "C:\\Proyectos\\Wayuu\\Wayuu.Services\\Wayuu.Services.csproj": {
-              "projectPath": "C:\\Proyectos\\Wayuu\\Wayuu.Services\\Wayuu.Services.csproj"
+            "C:\\Repositorio\\App\\Wayuu\\Wayuu.Migrations\\Wayuu.Migrations.csproj": {
+              "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Migrations\\Wayuu.Migrations.csproj"
+            },
+            "C:\\Repositorio\\App\\Wayuu\\Wayuu.Services\\Wayuu.Services.csproj": {
+              "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Services\\Wayuu.Services.csproj"
             }
           }
         }
@@ -3201,5 +3219,16 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto Wayuu.Migrations no es compatible con netstandard2.0 (.NETStandard,Version=v2.0). El proyecto Wayuu.Migrations admite: netcoreapp2.0 (.NETCoreApp,Version=v2.0)",
+      "libraryId": "Wayuu.Migrations",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

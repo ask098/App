@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayuu.Services", "Wayuu.Ser
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayuu.Helpers", "Wayuu.Helpers\Wayuu.Helpers.csproj", "{50C42743-0813-495A-BFE0-A0D484D851C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayuu.Migrations", "Wayuu.Migrations\Wayuu.Migrations.csproj", "{E7AB369C-2FB3-41A0-B22F-8AE8FDA61395}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayuu.WebApp", "Wayuu.WebApp\Wayuu.WebApp.csproj", "{4BDADAF2-F007-45F2-9F81-4E0B8FEC59C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wayuu.WebApp", "Wayuu.WebApp\Wayuu.WebApp.csproj", "{4BDADAF2-F007-45F2-9F81-4E0B8FEC59C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wayuu.Migrations", "Wayuu.Migrations\Wayuu.Migrations.csproj", "{AF37D6AC-50F7-412A-8C4C-F2553E691282}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,14 +43,14 @@ Global
 		{50C42743-0813-495A-BFE0-A0D484D851C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50C42743-0813-495A-BFE0-A0D484D851C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50C42743-0813-495A-BFE0-A0D484D851C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E7AB369C-2FB3-41A0-B22F-8AE8FDA61395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7AB369C-2FB3-41A0-B22F-8AE8FDA61395}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7AB369C-2FB3-41A0-B22F-8AE8FDA61395}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7AB369C-2FB3-41A0-B22F-8AE8FDA61395}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4BDADAF2-F007-45F2-9F81-4E0B8FEC59C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4BDADAF2-F007-45F2-9F81-4E0B8FEC59C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BDADAF2-F007-45F2-9F81-4E0B8FEC59C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BDADAF2-F007-45F2-9F81-4E0B8FEC59C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF37D6AC-50F7-412A-8C4C-F2553E691282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF37D6AC-50F7-412A-8C4C-F2553E691282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF37D6AC-50F7-412A-8C4C-F2553E691282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF37D6AC-50F7-412A-8C4C-F2553E691282}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

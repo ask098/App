@@ -612,11 +612,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\Wayuu\\Wayuu.Helpers\\Wayuu.Helpers.csproj",
+      "projectUniqueName": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Helpers\\Wayuu.Helpers.csproj",
       "projectName": "Wayuu.Helpers",
-      "projectPath": "C:\\Proyectos\\Wayuu\\Wayuu.Helpers\\Wayuu.Helpers.csproj",
+      "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Helpers\\Wayuu.Helpers.csproj",
       "packagesPath": "C:\\Users\\Hugo\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos\\Wayuu\\Wayuu.Helpers\\obj\\",
+      "outputPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

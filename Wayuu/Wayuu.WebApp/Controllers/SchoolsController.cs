@@ -55,6 +55,45 @@ namespace Wayuu.WebApp.Controllers
         {
             IActionResult Result;
             var School = new School
+            {
+                Name = name,
+                Address = address,
+                Telephone = telephone,
+                Email = email
+            };
+            var UpdateResult = Helper.Update(School);
+            if (UpdateResult)
+            {
+                Result = Content("Categoria Modificada");
+            }
+            else
+            {
+                Result = Content($"No se pudo modificar Econtro Escuela!");
+            }
+            return Result;
+
+        }
+
+        public IActionResult Delete(int id, bool withLog = false)
+        {
+            IActionResult Result;
+            var DeleteResult = withLog ? Helper.DeleteWithLog(id)
+                : Helper.Delete(id);
+            if (DeleteResult)
+            {
+                Result = Content("Categoria Eliminada");
+            }
+            else
+            {
+                Result = Content($"No se pudo eliminar la Escuela!");
+            }
+            return Result;
+        }
+
+        public IActionResult ALL()
+        {
+            var Model = Helper.GetAll();
+            return View(Model);
         }
     }
 }

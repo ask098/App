@@ -4767,6 +4767,7 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.0",
           "Wayuu.Entities": "1.0.0",
           "Wayuu.Helpers": "1.0.0",
+          "Wayuu.Migrations": "1.0.0",
           "Wayuu.Services": "1.0.0"
         },
         "compile": {
@@ -4798,6 +4799,16 @@
         },
         "runtime": {
           "bin/placeholder/Wayuu.Helpers.dll": {}
+        }
+      },
+      "Wayuu.Migrations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Wayuu.Migrations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Wayuu.Migrations.dll": {}
         }
       },
       "Wayuu.Services/1.0.0": {
@@ -8350,7 +8361,7 @@
       ]
     },
     "runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "jwjwlEL0Elv6gwoyaokRn12nv/JE+UW/DXJEbzhjCPvGbef36StnHKc9XaZD/rGWqYicrphZ7eumR/jdmNcjRg==",
+      "sha512": "DloMk88juo0OuOWr56QG7MNchmafTLYWvABy36izkrLI5VledI0rq28KGs1i9wbpeT9NPQrx/wTf8U2vazqQ3Q==",
       "type": "package",
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -10726,12 +10737,11 @@
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
-      "sha512": "+rD+UzHYxfXsT+YrMI0njdFaP/o1cnmSnRWy4os/NaWJC7FyCHrCOwiAKUwz+smQ3cPKZ8pAAv5zM5DDBG4K4w==",
+      "sha512": "59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11869,7 +11879,7 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "vOYy7Jv9KsG3ld2hLt0GoERd82SZi4BelrbXLwI9yFBYX7kpbvUCWYo4eyevk47cuJXZ9ZLVAryANcc7iY71aA==",
+      "sha512": "h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -13106,6 +13116,11 @@
       "path": "../Wayuu.Helpers/Wayuu.Helpers.csproj",
       "msbuildProject": "../Wayuu.Helpers/Wayuu.Helpers.csproj"
     },
+    "Wayuu.Migrations/1.0.0": {
+      "type": "project",
+      "path": "../Wayuu.Migrations/Wayuu.Migrations.csproj",
+      "msbuildProject": "../Wayuu.Migrations/Wayuu.Migrations.csproj"
+    },
     "Wayuu.Services/1.0.0": {
       "type": "project",
       "path": "../Wayuu.Services/Wayuu.Services.csproj",
@@ -13129,11 +13144,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\Wayuu\\Wayuu.WebApp\\Wayuu.WebApp.csproj",
+      "projectUniqueName": "C:\\Repositorio\\App\\Wayuu\\Wayuu.WebApp\\Wayuu.WebApp.csproj",
       "projectName": "Wayuu.WebApp",
-      "projectPath": "C:\\Proyectos\\Wayuu\\Wayuu.WebApp\\Wayuu.WebApp.csproj",
+      "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.WebApp\\Wayuu.WebApp.csproj",
       "packagesPath": "C:\\Users\\Hugo\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos\\Wayuu\\Wayuu.WebApp\\obj\\",
+      "outputPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13152,11 +13167,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Proyectos\\Wayuu\\Wayuu.BLL\\Wayuu.BLL.csproj": {
-              "projectPath": "C:\\Proyectos\\Wayuu\\Wayuu.BLL\\Wayuu.BLL.csproj"
+            "C:\\Repositorio\\App\\Wayuu\\Wayuu.BLL\\Wayuu.BLL.csproj": {
+              "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.BLL\\Wayuu.BLL.csproj"
             },
-            "C:\\Proyectos\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj": {
-              "projectPath": "C:\\Proyectos\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj"
+            "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj": {
+              "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj"
             }
           }
         }

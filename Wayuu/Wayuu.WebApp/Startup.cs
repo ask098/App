@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Wayuu.Services;
 
 namespace Wayuu.WebApp
 {
@@ -33,6 +34,12 @@ namespace Wayuu.WebApp
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddSingleton(
+                typeof(ISchoolOperations),
+                 F => BLL.OperationsFactory.GetSchoolOperations());
+            services.AddSingleton(
+                typeof(IWayuuLogOperations),
+                F => BLL.OperationsFactory.GetWayuuLogOperations());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
