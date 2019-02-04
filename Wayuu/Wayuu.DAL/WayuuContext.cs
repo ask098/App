@@ -1,23 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Wayuu.Entities;
-using Wayuu.Helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using Npgsql.EntityFrameworkCore;
+using Wayuu.Entities;
+using Wayuu.Helpers;
 
 namespace Wayuu.DAL
 {
-    public class WayuuContext:DbContext
+    public class WayuuContext : DbContext
     {
         public DbSet<School> Schools { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<Student> Students { get; set; }
-        public DbSet<WayuuLog> wayuuLogs { get; set; }
+        public DbSet<Log> Logs { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            //optionsBuilder.UseNpgsql(
+            //    "Host=localhost;Database=wayuu;Username=wayuuadmin;Password=wayuu1234"
+            //    );
             var ConnectionString = HelperConfiguration.GetAppConfiguration()
                 .ConnectionString;
 
@@ -35,7 +39,7 @@ namespace Wayuu.DAL
                 .Property(t => t.Name)
                 .IsRequired();
 
-            modelBuilder.Entity<WayuuLog>(
+            modelBuilder.Entity<Log>(
                 L => {
                     L.Property(wl => wl.DateTime)
                         .HasDefaultValueSql("now()");

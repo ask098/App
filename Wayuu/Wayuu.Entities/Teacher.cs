@@ -14,7 +14,7 @@ namespace Wayuu.Entities
         public int MyProperty { get; set; }
         public string Address { get; set; }
         public int Telephone { get; set; }
-        public School School { get; set; }
+        public int SchoolId { get; set; }
         public List<Course> Courses { get; set; }
     }
 }

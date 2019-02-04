@@ -1,0 +1,15 @@
+﻿@model Wayuu.Entities.School
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details School</h1>
+@using (Html.BeginForm("UpdateOrDelete", "Schools"))
+{
+    <div>ID: @Html.TextBoxFor(school => school.Id)</div>
+    <div>Name: @Html.TextBoxFor(school => school.Name)</div>
+    <div><input type="submit" name="BtnUpdate" value="Update" /></div>
+    <div><input type="submit" name="BtnDelete" value="Delete" /></div>
+
+}
+@Html.ActionLink("Return List", "Index")

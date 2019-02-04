@@ -14,8 +14,8 @@ namespace Wayuu.Services
         List<School> GetSchools();
 
 
-        List<WayuuLog> GetLog();
-        WayuuLog CreateWayuuLog(WayuuLog wayuuLog);
+        List<Log> GetLog();
+        Log CreateWayuuLog(Log wayuuLog);
 
         int SaveChanges();
     }

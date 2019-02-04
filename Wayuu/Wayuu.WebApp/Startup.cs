@@ -35,11 +35,8 @@ namespace Wayuu.WebApp
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddSingleton(
-                typeof(ISchoolOperations),
-                 F => BLL.OperationsFactory.GetSchoolOperations());
-            services.AddSingleton(
-                typeof(IWayuuLogOperations),
-                F => BLL.OperationsFactory.GetWayuuLogOperations());
+                    typeof(ISchoolOperations),
+                    F => BLL.OperationsFactory.GetSchoolOperations());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

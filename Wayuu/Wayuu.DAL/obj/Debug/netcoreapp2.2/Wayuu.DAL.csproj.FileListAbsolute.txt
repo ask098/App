@@ -1,0 +1,16 @@
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\bin\Debug\netcoreapp2.2\Wayuu.DAL.deps.json
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\bin\Debug\netcoreapp2.2\Wayuu.DAL.dll
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\obj\Debug\netcoreapp2.2\Wayuu.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\obj\Debug\netcoreapp2.2\Wayuu.DAL.AssemblyInfoInputs.cache
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\obj\Debug\netcoreapp2.2\Wayuu.DAL.AssemblyInfo.cs
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\bin\Debug\netcoreapp2.2\Wayuu.DAL.pdb
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\bin\Debug\netcoreapp2.2\Wayuu.Entities.dll
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\bin\Debug\netcoreapp2.2\Wayuu.Entities.pdb
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\obj\Debug\netcoreapp2.2\Wayuu.DAL.csprojAssemblyReference.cache
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\obj\Debug\netcoreapp2.2\Wayuu.DAL.csproj.CopyComplete
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\obj\Debug\netcoreapp2.2\Wayuu.DAL.dll
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\obj\Debug\netcoreapp2.2\Wayuu.DAL.pdb
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\bin\Debug\netcoreapp2.2\Wayuu.Services.dll
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\bin\Debug\netcoreapp2.2\Wayuu.Services.pdb
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\bin\Debug\netcoreapp2.2\Wayuu.Helpers.dll
+C:\Users\Hugo\source\repos\Wayuu\Wayuu.DAL\bin\Debug\netcoreapp2.2\Wayuu.Helpers.pdb

@@ -12,9 +12,9 @@ namespace Wayuu.BLL
             return new SchoolOperations();
         }
 
-        public static IWayuuLogOperations GetWayuuLogOperations()
+        public static ILogOperations GetWayuuLogOperations()
         {
-            return new WayuuLogOperations();
+            return new LogOperations();
         }
     }
 }

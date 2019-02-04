@@ -75,16 +75,16 @@ namespace Wayuu.DAL
             return WayuuContext.Schools.ToList();
         }
 
-        public WayuuLog CreateWayuuLog(WayuuLog wayuuLog)
+        public Log CreateWayuuLog(Log wayuuLog)
         {
             wayuuLog = WayuuContext.Add(wayuuLog).Entity;
             Save();
             return wayuuLog;
         }
 
-        public List<WayuuLog> GetLog()
+        public List<Log> GetLog()
         {
-            return WayuuContext.wayuuLogs.ToList();
+            return WayuuContext.Logs.ToList();
         }
 
         public void Dispose()

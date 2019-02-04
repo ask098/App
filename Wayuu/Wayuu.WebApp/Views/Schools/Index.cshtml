@@ -1,0 +1,27 @@
+﻿@model List<Wayuu.Entities.School>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Schools</h1>
+@using (Html.BeginForm())
+{
+    <div>Nombre Escuela:</div>
+    <div> <input type="text" name="schoolName" /> </div>
+    <div> <input type="submit" value="Crear" /></div>
+}
+
+<br />
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Nombre</td>
+    </tr>
+    @foreach (var school in Model)
+    {
+        <tr>
+            <td>@Html.ActionLink("Ver Detalle", "Details", new { id = school.Id })</td>
+            <td>@school.Name</td>
+        </tr>
+    }
+</table>

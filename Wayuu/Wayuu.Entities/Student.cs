@@ -13,7 +13,7 @@ namespace Wayuu.Entities
         public string Address { get; set; }
         public int Telephone { get; set; }
         public DateTime DateAdmission { get; set; }
-        public Course Course { get; set; }
-        public School School { get; set; }
+        public int CourseId { get; set; }
+        public int SchoolId { get; set; }
     }
 }

@@ -41,7 +41,7 @@ namespace Wayuu.BLL
             using (var Repository = WayuuRepositoryFactory.GetWayuuRepository(true))
             {
                 Repository.DeleteSchool(id);
-                WayuuLog wayuuLog = new WayuuLog
+                Log wayuuLog = new Log
                 {
                     Type = LogType.DeleteSchool,
                     Message = $"ID: {id}"

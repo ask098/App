@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Wayuu.DAL;
 using Wayuu.Entities;
 using Wayuu.Services;
 
@@ -17,83 +18,42 @@ namespace Wayuu.WebApp.Controllers
             this.Helper = schoolOperations;
         }
 
-        public IActionResult Create(string name)
+        public IActionResult Index()
         {
-            IActionResult Result;
+            var Schools = Helper.GetAll();
+            return View(Schools);
+        }
+
+        [HttpPost]
+        public IActionResult Index(string schoolName)
+        {
             School School = new School
             {
-                Name = name
+                Name = schoolName
             };
             School = Helper.Create(School);
-            if (School != null)
-            {
-                Result = Content($"Insertada! {School.Id}");
-            }
-            else
-            {
-                Result = Content($"No se Inserto!");
-            }
-            return Result;
+            return RedirectToAction("Index");
         }
 
-        public IActionResult Retrieve(int id)
+        public IActionResult Details(int id)
         {
-            IActionResult Result;
-            var School = Helper.RetrieveSchoolById(id);
-            if (School != null)
-            {
-                Result = Content($"Se encontro la Escuela: {School.Id} , {School.Name}");
-            }
-            else
-            {
-                Result = Content($"No se Econtro Escuela!");
-            }
-            return Result;
+            var SchoolFound = Helper.RetrieveSchoolById(id);
+            return View(SchoolFound);
         }
 
-        public IActionResult Update(int id, string name, string address, int telephone, string email)
+        [HttpPost]
+        public IActionResult UpdateOrDelete(School school, string BtnUpdate, string BtnDelete)
         {
-            IActionResult Result;
-            var School = new School
-            {
-                Name = name,
-                Address = address,
-                Telephone = telephone,
-                Email = email
-            };
-            var UpdateResult = Helper.Update(School);
-            if (UpdateResult)
-            {
-                Result = Content("Categoria Modificada");
-            }
-            else
-            {
-                Result = Content($"No se pudo modificar Econtro Escuela!");
-            }
-            return Result;
 
-        }
-
-        public IActionResult Delete(int id, bool withLog = false)
-        {
-            IActionResult Result;
-            var DeleteResult = withLog ? Helper.DeleteWithLog(id)
-                : Helper.Delete(id);
-            if (DeleteResult)
+            if (BtnUpdate != null)
             {
-                Result = Content("Categoria Eliminada");
+                Helper.Update(school);
             }
-            else
+            else if (BtnDelete != null)
             {
-                Result = Content($"No se pudo eliminar la Escuela!");
+                Helper.DeleteWithLog(school.Id);
             }
-            return Result;
-        }
-
-        public IActionResult ALL()
-        {
-            var Model = Helper.GetAll();
-            return View(Model);
+            return RedirectToAction("Index");
         }
     }
 }
