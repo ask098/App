@@ -3380,11 +3380,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.DAL\\Wayuu.DAL.csproj",
+      "projectUniqueName": "C:\\Repositorio\\App\\Wayuu\\Wayuu.DAL\\Wayuu.DAL.csproj",
       "projectName": "Wayuu.DAL",
-      "projectPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.DAL\\Wayuu.DAL.csproj",
+      "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.DAL\\Wayuu.DAL.csproj",
       "packagesPath": "C:\\Users\\Hugo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.DAL\\obj\\",
+      "outputPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3403,14 +3403,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj": {
-              "projectPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj"
+            "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj": {
+              "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj"
             },
-            "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Helpers\\Wayuu.Helpers.csproj": {
-              "projectPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Helpers\\Wayuu.Helpers.csproj"
+            "C:\\Repositorio\\App\\Wayuu\\Wayuu.Helpers\\Wayuu.Helpers.csproj": {
+              "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Helpers\\Wayuu.Helpers.csproj"
             },
-            "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Services\\Wayuu.Services.csproj": {
-              "projectPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Services\\Wayuu.Services.csproj"
+            "C:\\Repositorio\\App\\Wayuu\\Wayuu.Services\\Wayuu.Services.csproj": {
+              "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Services\\Wayuu.Services.csproj"
             }
           }
         }

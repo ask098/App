@@ -3547,11 +3547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.AppConsole\\Wayuu.Migrations.csproj",
+      "projectUniqueName": "C:\\Repositorio\\App\\Wayuu\\Wayuu.AppConsole\\Wayuu.Migrations.csproj",
       "projectName": "Wayuu.Migrations",
-      "projectPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.AppConsole\\Wayuu.Migrations.csproj",
+      "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.AppConsole\\Wayuu.Migrations.csproj",
       "packagesPath": "C:\\Users\\Hugo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.AppConsole\\obj\\",
+      "outputPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.AppConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3570,11 +3570,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.DAL\\Wayuu.DAL.csproj": {
-              "projectPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.DAL\\Wayuu.DAL.csproj"
+            "C:\\Repositorio\\App\\Wayuu\\Wayuu.DAL\\Wayuu.DAL.csproj": {
+              "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.DAL\\Wayuu.DAL.csproj"
             },
-            "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj": {
-              "projectPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj"
+            "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj": {
+              "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj"
             }
           }
         }

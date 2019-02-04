@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Services\\Wayuu.Services.csproj",
+      "projectUniqueName": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Services\\Wayuu.Services.csproj",
       "projectName": "Wayuu.Services",
-      "projectPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Services\\Wayuu.Services.csproj",
+      "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Services\\Wayuu.Services.csproj",
       "packagesPath": "C:\\Users\\Hugo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Services\\obj\\",
+      "outputPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -731,8 +731,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj": {
-              "projectPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj"
+            "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj": {
+              "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj"
             }
           }
         }

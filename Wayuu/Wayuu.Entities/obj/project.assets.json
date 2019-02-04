@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj",
+      "projectUniqueName": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj",
       "projectName": "Wayuu.Entities",
-      "projectPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj",
+      "projectPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\Wayuu.Entities.csproj",
       "packagesPath": "C:\\Users\\Hugo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hugo\\source\\repos\\Wayuu\\Wayuu.Entities\\obj\\",
+      "outputPath": "C:\\Repositorio\\App\\Wayuu\\Wayuu.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
