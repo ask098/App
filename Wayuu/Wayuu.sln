@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wayuu.Migrations", "Wayuu.AppConsole\Wayuu.Migrations.csproj", "{9348344F-B52B-4C4C-AFF8-2FE2423B33C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayuu.Migrations", "Wayuu.AppConsole\Wayuu.Migrations.csproj", "{9348344F-B52B-4C4C-AFF8-2FE2423B33C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wayuu.Entities", "Wayuu.Entities\Wayuu.Entities.csproj", "{B44ED626-0421-4C48-8828-34DFC8A4B2CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayuu.Entities", "Wayuu.Entities\Wayuu.Entities.csproj", "{B44ED626-0421-4C48-8828-34DFC8A4B2CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wayuu.DAL", "Wayuu.DAL\Wayuu.DAL.csproj", "{16C15B4F-8C92-4041-8705-4799AEF28CEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayuu.DAL", "Wayuu.DAL\Wayuu.DAL.csproj", "{16C15B4F-8C92-4041-8705-4799AEF28CEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wayuu.WebApp", "Wayuu.WebApp\Wayuu.WebApp.csproj", "{9105EBFD-3DF4-440F-81D0-5809ADA002D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayuu.WebApp", "Wayuu.WebApp\Wayuu.WebApp.csproj", "{9105EBFD-3DF4-440F-81D0-5809ADA002D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wayuu.BLL", "Wayuu.BLL\Wayuu.BLL.csproj", "{4FC42AAF-65FE-44FA-911C-BFF482DC2585}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayuu.BLL", "Wayuu.BLL\Wayuu.BLL.csproj", "{4FC42AAF-65FE-44FA-911C-BFF482DC2585}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wayuu.Services", "Wayuu.Services\Wayuu.Services.csproj", "{C1F463C0-45BB-4237-A8C8-336968EC045A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayuu.Services", "Wayuu.Services\Wayuu.Services.csproj", "{C1F463C0-45BB-4237-A8C8-336968EC045A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wayuu.Helpers", "Wayuu.Helpers\Wayuu.Helpers.csproj", "{A560F2E9-CA31-4BE4-A294-34043B46FA98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wayuu.Helpers", "Wayuu.Helpers\Wayuu.Helpers.csproj", "{A560F2E9-CA31-4BE4-A294-34043B46FA98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wayuu.WebApi", "Wayuu.WebApi\Wayuu.WebApi.csproj", "{29678D0F-F5B2-4759-B6DB-E21F36F3AE0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{A560F2E9-CA31-4BE4-A294-34043B46FA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A560F2E9-CA31-4BE4-A294-34043B46FA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A560F2E9-CA31-4BE4-A294-34043B46FA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29678D0F-F5B2-4759-B6DB-E21F36F3AE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29678D0F-F5B2-4759-B6DB-E21F36F3AE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29678D0F-F5B2-4759-B6DB-E21F36F3AE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29678D0F-F5B2-4759-B6DB-E21F36F3AE0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

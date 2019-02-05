@@ -1,0 +1,4 @@
+{
+  "DataBaseProvider": "UseNpgsql",
+  "Connectionstring": "Host=localhost;Database=wayuu;Username=wayuuadmin;Password=wayuu1234"
+}
