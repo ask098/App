@@ -4,6 +4,7 @@ using System.Text;
 using Wayuu.Entities;
 using Wayuu.Services;
 using System.Linq;
+using System.Diagnostics;
 
 namespace Wayuu.DAL
 {
@@ -27,10 +28,11 @@ namespace Wayuu.DAL
                 {
                     Result = WayuuContext.SaveChanges();
                 }
-                catch
+                catch(Exception e)
                 {
 
-                    // throw;
+                    Debug.WriteLine("Error: " + e);
+                    Result = 0;
                 }
             }
             return Result;

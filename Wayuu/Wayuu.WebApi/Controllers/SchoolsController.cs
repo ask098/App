@@ -21,13 +21,13 @@ namespace Wayuu.WebApi.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<School> Get()
+        public IEnumerable<School> GetAll()
         {
             return Helper.GetAll();
         }
 
         [HttpGet("{id}", Name = "CreatedSchool")]
-        public IActionResult GetById(int id)
+        public IActionResult RetrieveSchoolById(int id)
         {
             var SchoolFound = Helper.RetrieveSchoolById(id);
             if (SchoolFound == null)
@@ -38,7 +38,7 @@ namespace Wayuu.WebApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] School newSchool)
+        public IActionResult Create([FromBody] School newSchool)
         {
             if (ModelState.IsValid)
             {
@@ -46,6 +46,21 @@ namespace Wayuu.WebApi.Controllers
                 return new CreatedAtRouteResult("CreatedSchool", new { id = School.Id }, School);
             }
             return BadRequest(ModelState);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Update([FromBody] School school, int id)
+        {
+            if (ModelState.IsValid && school.Id == id)
+            {
+                if (Helper.Update(school))
+                {
+                    return Ok();
+                } 
+                return BadRequest();
+            }
+
+            return BadRequest();
         }
     }
 }
