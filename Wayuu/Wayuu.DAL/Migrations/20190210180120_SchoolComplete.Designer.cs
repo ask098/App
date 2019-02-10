@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Wayuu.DAL;
@@ -9,9 +10,10 @@ using Wayuu.DAL;
 namespace Wayuu.DAL.Migrations
 {
     [DbContext(typeof(WayuuContext))]
-    partial class WayuuContextModelSnapshot : ModelSnapshot
+    [Migration("20190210180120_SchoolComplete")]
+    partial class SchoolComplete
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -66,9 +68,7 @@ namespace Wayuu.DAL.Migrations
 
                     b.Property<string>("Address");
 
-                    b.Property<DateTime>("Creation_date")
-                        .ValueGeneratedOnAdd()
-                        .HasDefaultValueSql("now()");
+                    b.Property<DateTime>("Creation_date");
 
                     b.Property<string>("Description");
 

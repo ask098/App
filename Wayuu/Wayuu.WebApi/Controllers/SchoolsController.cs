@@ -29,7 +29,7 @@ namespace Wayuu.WebApi.Controllers
         [HttpGet("{id}", Name = "CreatedSchool")]
         public IActionResult RetrieveSchoolById(int id)
         {
-            var SchoolFound = Helper.RetrieveSchoolById(id);
+            var SchoolFound = Helper.RetrieveById(id);
             if (SchoolFound == null)
             {
                 return NotFound();
@@ -53,14 +53,21 @@ namespace Wayuu.WebApi.Controllers
         {
             if (ModelState.IsValid && school.Id == id)
             {
-                if (Helper.Update(school))
-                {
-                    return Ok();
-                } 
-                return BadRequest();
+                Helper.Update(school);
+                return Ok();                
             }
 
-            return BadRequest();
+            return BadRequest(ModelState);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete([FromBody] School school, int id)
+        {
+            if (Helper.DeleteWithLog(school.Id))
+            {
+                return Ok();
+            }
+            return NotFound();
         }
     }
 }

@@ -11,7 +11,9 @@ namespace Wayuu.BLL
     {
         public List<Log> GetAll()
         {
-            return WayuuRepositoryFactory.GetWayuuRepository().GetLog();
+            return WayuuRepositoryFactory
+                .GetWayuuRepository()
+                .GetAll<Log>();
         }
     }
 }

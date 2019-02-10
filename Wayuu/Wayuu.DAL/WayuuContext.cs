@@ -30,22 +30,23 @@ namespace Wayuu.DAL
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<School>()
-                .Property(s => s.Name)
-                .HasMaxLength(10)
-                .IsRequired();
+            modelBuilder.Entity<School>(
+                S =>
+                {
+                    S.Property(field => field.Name).HasMaxLength(10).IsRequired();
+                    S.Property(field => field.Creation_date).HasDefaultValueSql("now()");
+                });
 
-            modelBuilder.Entity<Teacher>()
-                .Property(t => t.Name)
-                .IsRequired();
+            modelBuilder.Entity<Teacher>(
+                T =>
+                {
+                    T.Property(field => field.Name).IsRequired();
+                });
 
             modelBuilder.Entity<Log>(
                 L => {
-                    L.Property(wl => wl.DateTime)
-                        .HasDefaultValueSql("now()");
-                    L.Property(wl => wl.Type)
-                        .HasConversion(new EnumToStringConverter<LogType>())
-                        .HasMaxLength(20);
+                    L.Property(wl => wl.DateTime).HasDefaultValueSql("now()");
+                    L.Property(wl => wl.Type).HasConversion(new EnumToStringConverter<LogType>()).HasMaxLength(20);
                 }
             );
         }

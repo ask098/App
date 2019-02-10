@@ -8,11 +8,11 @@ namespace Wayuu.Services
     public interface ISchoolOperations
     {
         School Create(School school);
-        School RetrieveSchoolById(int id);
+        School RetrieveById(int schoolId);
         bool Update(School school);
-        bool Delete(int id);
+        bool Delete(int schoolId);
         List<School> GetAll();
 
-        bool DeleteWithLog(int id);
+        bool DeleteWithLog(int schoolId);
     }
 }

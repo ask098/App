@@ -15,7 +15,7 @@ namespace Wayuu.BLL
             {
                 using (var Repository = WayuuRepositoryFactory.GetWayuuRepository())
                 {
-                    school = Repository.CreateSchool(school);
+                    school = Repository.Create(school);
                 }
             }
             else
@@ -25,46 +25,14 @@ namespace Wayuu.BLL
             return school;
         }
 
-        public bool Delete(int id)
-        {
-            bool Result = false;
-            using (var Repository = WayuuRepositoryFactory.GetWayuuRepository())
-            {
-                Result = Repository.DeleteSchool(id);
-            }
-            return Result;
-        }
-
-        public bool DeleteWithLog(int id)
-        {
-            bool Result = false;
-            using (var Repository = WayuuRepositoryFactory.GetWayuuRepository(true))
-            {
-                Repository.DeleteSchool(id);
-                Log wayuuLog = new Log
-                {
-                    Type = LogType.DeleteSchool,
-                    Message = $"ID: {id}"
-                };
-                Repository.CreateWayuuLog(wayuuLog);
-                Result = Repository.SaveChanges() == 2;
-            }
-            return Result;
-        }
-
-        public List<School> GetAll()
-        {
-            return WayuuRepositoryFactory.GetWayuuRepository().GetSchools();
-        }
-
-        public School RetrieveSchoolById(int id)
+        public School RetrieveById(int id)
         {
             School Result = null;
             if (id > 0)
             {
                 using (var Repository = WayuuRepositoryFactory.GetWayuuRepository())
                 {
-                    Result = Repository.RetrieveSchoolById(id);
+                    Result = Repository.RetrieveById<School>(id);
                 }
             }
             return Result;
@@ -75,9 +43,44 @@ namespace Wayuu.BLL
             bool Result = false;
             using (var Repository = WayuuRepositoryFactory.GetWayuuRepository())
             {
-                Result = Repository.UpdateSchool(school);
+                Result = Repository.Update(school);
             }
             return Result;
+        }
+
+        public bool Delete(int id)
+        {
+            bool Result = false;
+            using (var Repository = WayuuRepositoryFactory.GetWayuuRepository())
+            {
+                Result = Repository.Delete(new School { Id = id});
+            }
+            return Result;
+        }
+
+        public bool DeleteWithLog(int id)
+        {
+            bool Result = false;
+            using (var Repository = WayuuRepositoryFactory.GetWayuuRepository(true))
+            {
+                Repository.Delete(new School { Id = id});
+                Log Log = new Log
+                {
+                    Type = LogType.DeleteSchool,
+                    Message = $"ID: {id}"
+                };
+
+                Repository.Create(Log);
+                Result = Repository.SaveChanges() == 2;
+            }
+            return Result;
+        }
+
+        public List<School> GetAll()
+        {
+            return WayuuRepositoryFactory
+                .GetWayuuRepository()
+                .GetAll<School>();
         }
     }
 }

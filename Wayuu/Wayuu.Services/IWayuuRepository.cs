@@ -7,15 +7,12 @@ namespace Wayuu.Services
 {
     public interface IWayuuRepository : IDisposable
     {
-        School CreateSchool(School school);
-        School RetrieveSchoolById(int schoolId);
-        bool UpdateSchool(School school);
-        bool DeleteSchool(int schoolId);
-        List<School> GetSchools();
+        T Create<T>(T entoty)where T: class;
+        T RetrieveById<T>(params object[] keyValues) where T:class;
+        bool Update<T>(T entity)where T:class;
+        bool Delete<T>(T entity)where T:class;
+        List<T> GetAll<T>() where T:class;
 
-
-        List<Log> GetLog();
-        Log CreateWayuuLog(Log wayuuLog);
 
         int SaveChanges();
     }
