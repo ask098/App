@@ -18,7 +18,7 @@ how to guide across some classes [here](https://github.com/ask098/App/blob/maste
 #### To add our repository
 ```
 git init
-git clone https://github.com/ask098/certifier.git
+git clone https://github.com/ask098/App.git
 git add .
 git commit -m ""
 ```
