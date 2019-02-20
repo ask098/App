@@ -27,7 +27,7 @@ namespace Wayuu.WebApi.Controllers
         }
 
         [HttpGet("{id}", Name = "CreatedSchool")]
-        public IActionResult RetrieveSchoolById(int id)
+        public IActionResult RetrieveById(int id)
         {
             var SchoolFound = Helper.RetrieveById(id);
             if (SchoolFound == null)
