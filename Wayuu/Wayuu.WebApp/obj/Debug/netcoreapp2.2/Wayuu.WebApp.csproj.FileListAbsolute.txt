@@ -84,3 +84,11 @@ C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.Views
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csproj.CopyComplete
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.dll
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.pdb
+C:\proyecto\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csprojAssemblyReference.cache
+C:\proyecto\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csproj.CoreCompileInputs.cache
+C:\proyecto\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.RazorAssemblyInfo.cache
+C:\proyecto\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.RazorAssemblyInfo.cs
+C:\proyecto\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.AssemblyInfoInputs.cache
+C:\proyecto\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.AssemblyInfo.cs
+C:\proyecto\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.dll
+C:\proyecto\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.pdb

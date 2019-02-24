@@ -16,5 +16,11 @@ namespace Wayuu.BLL
         {
             return new LogOperations();
         }
+
+        public static ICourseOperations GetCourseOperations()
+        {
+            return new CourseOperations();
+        }
+       
     }
 }
