@@ -45,10 +45,10 @@ namespace Wayuu.BLL
             bool Result = false;
             using (var Repository = WayuuRepositoryFactory.GetWayuuRepository(true))
             {
-                Repository.Delete(new School { Id = courseId });
+                Repository.Delete(new Course { Id = courseId });
                 Log Log = new Log
                 {
-                    Type = LogType.DeleteSchool,
+                    Type = LogType.DeleteCourse,
                     Message = $"ID: {courseId}"
                 };
 
