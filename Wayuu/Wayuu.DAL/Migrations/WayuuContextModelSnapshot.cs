@@ -124,8 +124,6 @@ namespace Wayuu.DAL.Migrations
 
                     b.Property<string>("Identification");
 
-                    b.Property<int>("MyProperty");
-
                     b.Property<string>("Name")
                         .IsRequired();
 
