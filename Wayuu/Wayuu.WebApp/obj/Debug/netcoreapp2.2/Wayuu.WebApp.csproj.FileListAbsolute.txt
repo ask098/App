@@ -85,6 +85,7 @@ C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.dll
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.pdb
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csprojAssemblyReference.cache
 =======
 C:\proyecto\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csprojAssemblyReference.cache
@@ -133,6 +134,8 @@ C:\proyecto\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csproj.C
 C:\proyecto\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Razor\Views\Courses\Index.g.cshtml.cs
 >>>>>>> origin/Course
 =======
+=======
+>>>>>>> origin/Student
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csprojAssemblyReference.cache
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.RazorAssemblyInfo.cache
@@ -141,4 +144,7 @@ C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.AssemblyInfo.cs
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.dll
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.pdb
+<<<<<<< HEAD
+>>>>>>> origin/Student
+=======
 >>>>>>> origin/Student

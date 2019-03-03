@@ -39,6 +39,7 @@ C:\Repositorio\App\Wayuu\Wayuu.AppConsole\obj\Debug\netcoreapp2.2\Wayuu.Migratio
 C:\Repositorio\App\Wayuu\Wayuu.AppConsole\obj\Debug\netcoreapp2.2\Wayuu.Migrations.dll
 C:\Repositorio\App\Wayuu\Wayuu.AppConsole\obj\Debug\netcoreapp2.2\Wayuu.Migrations.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\proyecto\App\Wayuu\Wayuu.AppConsole\bin\Debug\netcoreapp2.2\Wayuu.Migrations.deps.json
 C:\proyecto\App\Wayuu\Wayuu.AppConsole\bin\Debug\netcoreapp2.2\Wayuu.Migrations.runtimeconfig.json
 C:\proyecto\App\Wayuu\Wayuu.AppConsole\bin\Debug\netcoreapp2.2\Wayuu.Migrations.runtimeconfig.dev.json
@@ -60,6 +61,8 @@ C:\proyecto\App\Wayuu\Wayuu.AppConsole\obj\Debug\netcoreapp2.2\Wayuu.Migrations.
 C:\proyecto\App\Wayuu\Wayuu.AppConsole\obj\Debug\netcoreapp2.2\Wayuu.Migrations.dll
 C:\proyecto\App\Wayuu\Wayuu.AppConsole\obj\Debug\netcoreapp2.2\Wayuu.Migrations.pdb
 =======
+=======
+>>>>>>> origin/Student
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.AppConsole\bin\Debug\netcoreapp2.2\Wayuu.Migrations.deps.json
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.AppConsole\bin\Debug\netcoreapp2.2\Wayuu.Migrations.runtimeconfig.json
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.AppConsole\bin\Debug\netcoreapp2.2\Wayuu.Migrations.runtimeconfig.dev.json
@@ -80,4 +83,7 @@ C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.AppConsole\obj\Debug\netcorea
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.AppConsole\obj\Debug\netcoreapp2.2\Wayuu.Migrations.csproj.CopyComplete
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.AppConsole\obj\Debug\netcoreapp2.2\Wayuu.Migrations.dll
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.AppConsole\obj\Debug\netcoreapp2.2\Wayuu.Migrations.pdb
+<<<<<<< HEAD
+>>>>>>> origin/Student
+=======
 >>>>>>> origin/Student
