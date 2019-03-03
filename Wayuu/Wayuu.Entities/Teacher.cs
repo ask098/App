@@ -11,7 +11,6 @@ namespace Wayuu.Entities
         public string Surname { get; set; }
         public string SecondSurname { get; set; }
         public string Identification { get; set; }
-        public int MyProperty { get; set; }
         public string Address { get; set; }
         public int Telephone { get; set; }
         public int SchoolId { get; set; }
