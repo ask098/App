@@ -37,7 +37,8 @@ namespace Wayuu.WebApp.Controllers
 
         public IActionResult Details(int id)
         {
-            var SchoolFound = Helper.RetrieveSchoolById(id);
+            var SchoolFound = Helper.RetrieveById(id);
+               // RetrieveSchoolById(id);
             return View(SchoolFound);
         }
 
