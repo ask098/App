@@ -6,7 +6,8 @@ namespace Wayuu.Entities
 {
     public enum LogType
     {
-        DeleteSchool
+        DeleteSchool,
+        DeleteTeacher
     }
     public class Log
     {

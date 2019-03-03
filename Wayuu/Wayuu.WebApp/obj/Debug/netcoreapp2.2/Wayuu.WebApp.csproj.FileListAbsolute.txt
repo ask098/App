@@ -41,6 +41,11 @@ C:\Users\Hugo\source\repos\Wayuu\Wayuu.WebApp\bin\Debug\netcoreapp2.2\Wayuu.BLL.
 C:\Users\Hugo\source\repos\Wayuu\Wayuu.WebApp\bin\Debug\netcoreapp2.2\Wayuu.Helpers.dll
 C:\Users\Hugo\source\repos\Wayuu\Wayuu.WebApp\bin\Debug\netcoreapp2.2\Wayuu.Helpers.pdb
 C:\Users\Hugo\source\repos\Wayuu\Wayuu.WebApp\bin\Debug\netcoreapp2.2\App.json
+C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csproj.CoreCompileInputs.cache
+C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.RazorAssemblyInfo.cache
+C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.RazorAssemblyInfo.cs
+C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.AssemblyInfoInputs.cache
+C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.AssemblyInfo.cs
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\bin\Debug\netcoreapp2.2\App.json
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\bin\Debug\netcoreapp2.2\Wayuu.WebApp.deps.json
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\bin\Debug\netcoreapp2.2\Wayuu.WebApp.runtimeconfig.json
@@ -59,12 +64,6 @@ C:\Repositorio\App\Wayuu\Wayuu.WebApp\bin\Debug\netcoreapp2.2\Wayuu.Entities.pdb
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\bin\Debug\netcoreapp2.2\Wayuu.DAL.pdb
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\bin\Debug\netcoreapp2.2\Wayuu.Helpers.pdb
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\bin\Debug\netcoreapp2.2\Wayuu.Services.pdb
-C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csprojAssemblyReference.cache
-C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csproj.CoreCompileInputs.cache
-C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.RazorAssemblyInfo.cache
-C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.RazorAssemblyInfo.cs
-C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.AssemblyInfoInputs.cache
-C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.AssemblyInfo.cs
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.TagHelpers.input.cache
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.TagHelpers.output.cache
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.RazorCoreGenerate.cache
@@ -84,3 +83,4 @@ C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.Views
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csproj.CopyComplete
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.dll
 C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.pdb
+C:\Repositorio\App\Wayuu\Wayuu.WebApp\obj\Debug\netcoreapp2.2\Wayuu.WebApp.csprojAssemblyReference.cache
