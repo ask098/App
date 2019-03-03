@@ -16,6 +16,7 @@ namespace Wayuu.BLL
         {
             return new LogOperations();
         }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
         public static ITeacherOperations GetTeacherOperations()
@@ -29,5 +30,11 @@ namespace Wayuu.BLL
         }
        
 >>>>>>> origin/Course
+=======
+        public static IStudentOperations GetStudentOperations()
+        {
+            return new StudentOperations();
+        }
+>>>>>>> origin/Student
     }
 }

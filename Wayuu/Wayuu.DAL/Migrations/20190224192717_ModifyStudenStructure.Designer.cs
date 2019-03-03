@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Wayuu.DAL;
@@ -9,36 +10,21 @@ using Wayuu.DAL;
 namespace Wayuu.DAL.Migrations
 {
     [DbContext(typeof(WayuuContext))]
-    partial class WayuuContextModelSnapshot : ModelSnapshot
+    [Migration("20190224192717_ModifyStudenStructure")]
+    partial class ModifyStudenStructure
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn)
-<<<<<<< HEAD
-                .HasAnnotation("ProductVersion", "2.2.2-servicing-10034")
-=======
                 .HasAnnotation("ProductVersion", "2.2.0-rtm-35687")
->>>>>>> origin/Student
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             modelBuilder.Entity("Wayuu.Entities.Course", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
-
-                    b.Property<bool>("Active");
-
-                    b.Property<string>("Description");
-
-                    b.Property<string>("Duration");
-
-                    b.Property<int>("Enroll");
-
-                    b.Property<DateTime>("FinishDate");
-
-                    b.Property<int>("MaxCapacity");
 
                     b.Property<string>("Name");
 
@@ -153,6 +139,8 @@ namespace Wayuu.DAL.Migrations
                     b.Property<string>("Address");
 
                     b.Property<string>("Identification");
+
+                    b.Property<int>("MyProperty");
 
                     b.Property<string>("Name")
                         .IsRequired();
