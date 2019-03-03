@@ -25,3 +25,11 @@ C:\proyecto\App\Wayuu\Wayuu.Entities\bin\Debug\netcoreapp2.2\Wayuu.Entities.deps
 C:\proyecto\App\Wayuu\Wayuu.Entities\bin\Debug\netcoreapp2.2\Wayuu.Entities.dll
 C:\proyecto\App\Wayuu\Wayuu.Entities\bin\Debug\netcoreapp2.2\Wayuu.Entities.pdb
 C:\proyecto\App\Wayuu\Wayuu.Entities\obj\Debug\netcoreapp2.2\Wayuu.Entities.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Entities\bin\Debug\netcoreapp2.2\Wayuu.Entities.deps.json
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Entities\bin\Debug\netcoreapp2.2\Wayuu.Entities.dll
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Entities\bin\Debug\netcoreapp2.2\Wayuu.Entities.pdb
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Entities\obj\Debug\netcoreapp2.2\Wayuu.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Entities\obj\Debug\netcoreapp2.2\Wayuu.Entities.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Entities\obj\Debug\netcoreapp2.2\Wayuu.Entities.AssemblyInfo.cs
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Entities\obj\Debug\netcoreapp2.2\Wayuu.Entities.dll
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Entities\obj\Debug\netcoreapp2.2\Wayuu.Entities.pdb

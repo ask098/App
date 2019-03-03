@@ -16,25 +16,22 @@ namespace Wayuu.BLL
         {
             return new LogOperations();
         }
-<<<<<<< HEAD
 
-<<<<<<< HEAD
         public static ITeacherOperations GetTeacherOperations()
         {
             return new TeacherOperations();
         }
-=======
+
         public static ICourseOperations GetCourseOperations()
         {
             return new CourseOperations();
         }
        
->>>>>>> origin/Course
-=======
+
         public static IStudentOperations GetStudentOperations()
         {
             return new StudentOperations();
         }
->>>>>>> origin/Student
+
     }
 }

@@ -25,7 +25,6 @@ C:\Repositorio\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.cspro
 C:\Repositorio\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.dll
 C:\Repositorio\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.pdb
 <<<<<<< HEAD
-<<<<<<< HEAD
 C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.csprojAssemblyReference.cache
 C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.csproj.CoreCompileInputs.cache
 C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.AssemblyInfoInputs.cache
@@ -52,7 +51,6 @@ C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.RazorAss
 C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.RazorAssemblyInfo.cs
 C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.RazorTargetAssemblyInfo.cache
 C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.csproj.CopyComplete
-=======
 =======
 >>>>>>> origin/Student
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\App.json
@@ -81,7 +79,3 @@ C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.csproj.CopyComplete
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.dll
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.pdb
-<<<<<<< HEAD
->>>>>>> origin/Student
-=======
->>>>>>> origin/Student

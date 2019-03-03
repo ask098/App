@@ -25,3 +25,11 @@ C:\proyecto\App\Wayuu\Wayuu.Helpers\bin\Debug\netcoreapp2.2\Wayuu.Helpers.deps.j
 C:\proyecto\App\Wayuu\Wayuu.Helpers\bin\Debug\netcoreapp2.2\Wayuu.Helpers.dll
 C:\proyecto\App\Wayuu\Wayuu.Helpers\bin\Debug\netcoreapp2.2\Wayuu.Helpers.pdb
 C:\proyecto\App\Wayuu\Wayuu.Helpers\obj\Debug\netcoreapp2.2\Wayuu.Helpers.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Helpers\bin\Debug\netcoreapp2.2\Wayuu.Helpers.deps.json
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Helpers\bin\Debug\netcoreapp2.2\Wayuu.Helpers.dll
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Helpers\bin\Debug\netcoreapp2.2\Wayuu.Helpers.pdb
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Helpers\obj\Debug\netcoreapp2.2\Wayuu.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Helpers\obj\Debug\netcoreapp2.2\Wayuu.Helpers.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Helpers\obj\Debug\netcoreapp2.2\Wayuu.Helpers.AssemblyInfo.cs
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Helpers\obj\Debug\netcoreapp2.2\Wayuu.Helpers.dll
+C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.Helpers\obj\Debug\netcoreapp2.2\Wayuu.Helpers.pdb
