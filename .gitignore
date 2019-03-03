@@ -1,0 +1,12 @@
+Wayuu/.vs/*
+Wayuu/Wayuu.AppConsole/bin/Debug/*
+Wayuu/Wayuu.AppConsole/obj/Debug/*
+Wayuu/Wayuu.BLL/bin/Debug/*
+Wayuu/Wayuu.DAL/Migrations/*
+Wayuu/Wayuu.DAL/bin/Debug/*
+Wayuu/Wayuu.Entities/bin/Debug/*
+Wayuu/Wayuu.Helpers/obj/Debug/*
+Wayuu/Wayuu.Services/bin/Debug/*
+Wayuu/Wayuu.WebApi/bin/Debug/*
+Wayuu/Wayuu.WebApi/obj/Debug/*
+Wayuu/Wayuu.WebApp/bin/Debug/*
