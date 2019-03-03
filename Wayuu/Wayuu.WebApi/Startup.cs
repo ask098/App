@@ -33,6 +33,15 @@ namespace Wayuu.WebApi
             services.AddSingleton(
                     typeof(ITeacherOperations),
                     F => BLL.OperationsFactory.GetTeacherOperations());
+            services.AddSingleton(
+                typeof(IStudentOperations),
+                F => BLL.OperationsFactory.GetStudentOperations());
+            services.AddSingleton(
+                typeof(ICourseOperations),
+                F => BLL.OperationsFactory.GetCourseOperations());
+
+
+
         }
 
         private void ConfigureJson(MvcJsonOptions obj)

@@ -21,5 +21,17 @@ namespace Wayuu.BLL
         {
             return new TeacherOperations();
         }
+
+        public static ICourseOperations GetCourseOperations()
+        {
+            return new CourseOperations();
+        }
+       
+
+        public static IStudentOperations GetStudentOperations()
+        {
+            return new StudentOperations();
+        }
+
     }
 }

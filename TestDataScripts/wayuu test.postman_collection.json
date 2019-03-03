@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "b8870f92-0f3b-4f9b-a0f8-0146c950635f",
+		"name": "wayuu test",
+		"description": "wayuu test over verbose or rest methos to check if are working as expected.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44356/api/Schools",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"CourseE\",\n        \"schedule\": \"2019-10-01T00:00:00\",\n        \"place\": \"court3\",\n        \"description\": \"descCourse\",\n        \"duration\": \"1000h\",\n        \"active\": true,\n        \"maxCapacity\": 0,\n        \"enroll\": 3,\n        \"finishDate\": \"0001-01-01T00:00:00\",\n        \"teacherId\": 4,\n        \"students\": null\n    }"
+				},
+				"url": {
+					"raw": "https://localhost:44356/api/Courses",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44356",
+					"path": [
+						"api",
+						"Courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get method",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44356/api/Courses",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44356",
+					"path": [
+						"api",
+						"Courses"
+					]
+				},
+				"description": "test over get method"
+			},
+			"response": []
+		},
+		{
+			"name": "Put Method",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "   {\n   \t\t\"id\": 3,\n        \"name\": \"CourseX\",\n        \"schedule\": \"2017-10-01T00:00:00\",\n        \"place\": \"court3\",\n        \"description\": \"descCourse\",\n        \"duration\": \"1000h\",\n        \"active\": true,\n        \"maxCapacity\": 0,\n        \"enroll\": 0,\n        \"finishDate\": \"0001-01-01T00:00:00\",\n        \"teacherId\": 4,\n        \"students\": null\n    }"
+				},
+				"url": {
+					"raw": "https://localhost:44356/api/Courses/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44356",
+					"path": [
+						"api",
+						"Courses",
+						"3"
+					]
+				},
+				"description": "put method over courses"
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"id\": 4,\n        \"name\": \"CourseC\",\n        \"schedule\": \"2019-10-01T00:00:00\",\n        \"place\": \"court3\",\n        \"description\": \"descCourse\",\n        \"duration\": \"1000h\",\n        \"active\": true,\n        \"maxCapacity\": 0,\n        \"enroll\": 3,\n        \"finishDate\": \"0001-01-01T00:00:00\",\n        \"teacherId\": 4,\n        \"students\": null\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44356/api/Courses/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44356",
+					"path": [
+						"api",
+						"Courses",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -10,6 +10,12 @@ namespace Wayuu.Entities
         public String Name { get; set; }
         public DateTime Schedule { get; set; }
         public string Place { get; set; }
+        public string Description { get; set; }
+        public string Duration { get; set; }
+        public Boolean Active { get; set; }
+        public int MaxCapacity { get; set; }
+        public int Enroll { get; set; }
+        public DateTime FinishDate { get; set; }
         public int TeacherId { get; set; }
         public List<Student> Students { get; set; }
     }
