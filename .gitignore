@@ -14,5 +14,6 @@ Wayuu/Wayuu.Helpers/obj/Debug/
 Wayuu/Wayuu.Services/obj/Debug/
 Wayuu/Wayuu.WebApi/obj/Debug/
 Wayuu/Wayuu.WebApp/obj/Debug/
-Wayuu/Wayuu/.vs/
+Wayuu/.vs/
 Wayuu/Wayuu/Wayuu.DAL/Migrations/
+*.cache
