@@ -30,7 +30,7 @@ namespace Wayuu.BLL
             bool Result = false;
             using (var Repository = WayuuRepositoryFactory.GetWayuuRepository())
             {
-                Result = Repository.Delete(new School { Id = studentId });
+                Result = Repository.Delete(new Student { Id = studentId });
             }
             return Result;
         }
@@ -40,10 +40,10 @@ namespace Wayuu.BLL
             bool Result = false;
             using (var Repository = WayuuRepositoryFactory.GetWayuuRepository(true))
             {
-                Repository.Delete(new School { Id = studentId });
+                Repository.Delete(new Student { Id = studentId });
                 Log Log = new Log
                 {
-                    Type = LogType.DeleteSchool,
+                    Type = LogType.DeleteStudent,
                     Message = $"ID: {studentId}"
                 };
 
