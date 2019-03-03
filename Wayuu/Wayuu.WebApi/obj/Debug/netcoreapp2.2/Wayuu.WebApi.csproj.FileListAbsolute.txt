@@ -24,35 +24,6 @@ C:\Repositorio\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.Razor
 C:\Repositorio\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.csproj.CopyComplete
 C:\Repositorio\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.dll
 C:\Repositorio\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.pdb
-<<<<<<< HEAD
-C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.csprojAssemblyReference.cache
-C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.csproj.CoreCompileInputs.cache
-C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.AssemblyInfoInputs.cache
-C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.AssemblyInfo.cs
-C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.dll
-C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.pdb
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\App.json
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.WebApi.deps.json
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.WebApi.runtimeconfig.json
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.WebApi.runtimeconfig.dev.json
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.WebApi.dll
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.WebApi.pdb
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.BLL.dll
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.DAL.dll
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.Entities.dll
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.Helpers.dll
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.Services.dll
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.BLL.pdb
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.Entities.pdb
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.DAL.pdb
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.Helpers.pdb
-C:\proyecto\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.Services.pdb
-C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.RazorAssemblyInfo.cache
-C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.RazorAssemblyInfo.cs
-C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.RazorTargetAssemblyInfo.cache
-C:\proyecto\App\Wayuu\Wayuu.WebApi\obj\Debug\netcoreapp2.2\Wayuu.WebApi.csproj.CopyComplete
-=======
->>>>>>> origin/Student
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\App.json
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.WebApi.deps.json
 C:\Users\Usuario\Documents\App\App\App\Wayuu\Wayuu.WebApi\bin\Debug\netcoreapp2.2\Wayuu.WebApi.runtimeconfig.json

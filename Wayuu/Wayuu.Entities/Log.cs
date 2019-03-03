@@ -10,7 +10,9 @@ namespace Wayuu.Entities
 
         DeleteTeacher,
 
-        DeleteStudent
+        DeleteStudent,
+
+        DeleteCourse
 
     }
     public class Log

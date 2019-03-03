@@ -31,13 +31,17 @@ namespace Wayuu.WebApi
                     typeof(ISchoolOperations),
                     F => BLL.OperationsFactory.GetSchoolOperations());
             services.AddSingleton(
-<<<<<<< HEAD
                     typeof(ITeacherOperations),
                     F => BLL.OperationsFactory.GetTeacherOperations());
-=======
-                    typeof(IStudentOperations),
-                    F => BLL.OperationsFactory.GetStudentOperations());
->>>>>>> origin/Student
+            services.AddSingleton(
+                typeof(IStudentOperations),
+                F => BLL.OperationsFactory.GetStudentOperations());
+            services.AddSingleton(
+                typeof(ICourseOperations),
+                F => BLL.OperationsFactory.GetCourseOperations());
+
+
+
         }
 
         private void ConfigureJson(MvcJsonOptions obj)
