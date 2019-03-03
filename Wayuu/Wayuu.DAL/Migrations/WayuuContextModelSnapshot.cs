@@ -16,13 +16,25 @@ namespace Wayuu.DAL.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn)
-                .HasAnnotation("ProductVersion", "2.2.1-servicing-10028")
+                .HasAnnotation("ProductVersion", "2.2.2-servicing-10034")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             modelBuilder.Entity("Wayuu.Entities.Course", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
+
+                    b.Property<bool>("Active");
+
+                    b.Property<string>("Description");
+
+                    b.Property<string>("Duration");
+
+                    b.Property<int>("Enroll");
+
+                    b.Property<DateTime>("FinishDate");
+
+                    b.Property<int>("MaxCapacity");
 
                     b.Property<string>("Name");
 
